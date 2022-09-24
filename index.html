@@ -37,46 +37,31 @@
 
     <!-- CONTENIDO DE TU PAGINA -->
     <div class="container">
-        <h1>Contenido de tu pagina</h1>
-    </div>
-    <!-- CONTENIDO DE TU PAGINA -->
-
-    <footer class="p-5">
         <div class="row">
-            <div class="col-6 col-md">
-                <h5>Features</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Cool stuff</a></li>
-                    <li><a class="text-muted" href="#">Random feature</a></li>
-
-                </ul>
+            <div class="col-md-12">
+                <h1>Gráfica</h1>
+                <canvas id="myChart" width="400" height="400"></canvas>
             </div>
-            <div class="col-6 col-md">
-                <h5>Resources</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Resource</a></li>
-                    <li><a class="text-muted" href="#">Resource name</a></li>
+            <div class="col-md-12">
+                <h1>Tabla de información</h1>
+                <table class="table table-bordered">
 
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>Resources</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Business</a></li>
-                    <li><a class="text-muted" href="#">Education</a></li>
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>#</th>
+                            <th>Nombre</th>
+                            <th>Monto</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tblDatos"></tbody>
 
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>About</h5>
-                <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="#">Team</a></li>
-                    <li><a class="text-muted" href="#">Locations</a></li>
-
-                </ul>
+                </table>
             </div>
         </div>
-    </footer>
+    </div>
+    <!-- CONTENIDO DE TU PAGINA -->
 </body>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
 <script src="assets/js/main.js"></script>
+
 </html>
